@@ -3,6 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.body-text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -30,6 +35,10 @@ body {
 
 .topnav .icon {
   display: none;
+}
+
+h1 {
+  font: 700 34px/40px "Copper Pot", serif;
 }
 
 @media screen and (max-width: 600px) {
