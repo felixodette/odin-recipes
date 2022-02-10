@@ -1,0 +1,8 @@
+.navigation {
+  padding: 0px;
+}
+.nav-li {
+  display: inline-block;
+  width: auto;
+  list-style: outside none none;
+}
