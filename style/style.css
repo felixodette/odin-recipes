@@ -34,11 +34,25 @@ body {
 }
 
 .topnav .icon {
-  display: none;
+  display: inline-block;
 }
 
 h1 {
   font: 700 34px/40px "Copper Pot", serif;
+}
+
+.recipe-img-links ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: block;
+}
+
+.recipe-img-links li {
+  display: inline-flex;
+}
+
+.recipe-img-links img {
+  width: 250px;
 }
 
 @media screen and (max-width: 600px) {
